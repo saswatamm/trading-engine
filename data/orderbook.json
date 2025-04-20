@@ -1,0 +1,92 @@
+{
+  "BTC/USDC": {
+    "bids": [
+      {
+        "order_id": "10",
+        "account_id": "2",
+        "amount": "2",
+        "limit_price": "63477.3",
+        "timestamp": 1745169746463
+      },
+      {
+        "order_id": "13",
+        "account_id": "2",
+        "amount": "4.5",
+        "limit_price": "62877.3",
+        "timestamp": 1745169746463
+      },
+      {
+        "order_id": "14",
+        "account_id": "2",
+        "amount": "3.5",
+        "limit_price": "62877.3",
+        "timestamp": 1745169746463
+      },
+      {
+        "order_id": "9",
+        "account_id": "2",
+        "amount": "2.345",
+        "limit_price": "62577.3",
+        "timestamp": 1745169746463
+      },
+      {
+        "order_id": "12",
+        "account_id": "2",
+        "amount": "3.5",
+        "limit_price": "61577.3",
+        "timestamp": 1745169746463
+      },
+      {
+        "order_id": "15",
+        "account_id": "2",
+        "amount": "1.576",
+        "limit_price": "60577.3",
+        "timestamp": 1745169746463
+      },
+      {
+        "order_id": "18",
+        "account_id": "2",
+        "amount": "0.476",
+        "limit_price": "60577.3",
+        "timestamp": 1745169746463
+      },
+      {
+        "order_id": "19",
+        "account_id": "2",
+        "amount": "1",
+        "limit_price": "60577.3",
+        "timestamp": 1745169746463
+      },
+      {
+        "order_id": "7",
+        "account_id": "1",
+        "amount": "0.2",
+        "limit_price": "50500",
+        "timestamp": 1745169746462
+      }
+    ],
+    "asks": [
+      {
+        "order_id": "4",
+        "account_id": "2",
+        "amount": "0.00798",
+        "limit_price": "62880.54",
+        "timestamp": 1745169746462
+      },
+      {
+        "order_id": "16",
+        "account_id": "2",
+        "amount": "1.589",
+        "limit_price": "65860.3",
+        "timestamp": 1745169746463
+      },
+      {
+        "order_id": "17",
+        "account_id": "2",
+        "amount": "2.676",
+        "limit_price": "66490.5",
+        "timestamp": 1745169746463
+      }
+    ]
+  }
+}
