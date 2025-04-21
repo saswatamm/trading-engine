@@ -1,4 +1,3 @@
-// src/index.ts
 
 import * as fs from "fs";
 import * as path from "path";
@@ -10,11 +9,7 @@ import config from "./config/config";
 
 const logger = createLogger("App");
 
-/**
- * Read orders from input file
- * @param filePath - Path to the input file
- * @returns Array of raw orders
- */
+
 async function readOrdersFromFile(filePath: string): Promise<RawOrder[]> {
   try {
     logger.info(`Reading orders from ${filePath}`);
@@ -36,11 +31,7 @@ async function readOrdersFromFile(filePath: string): Promise<RawOrder[]> {
   }
 }
 
-/**
- * Write data to output file
- * @param filePath - Path to the output file
- * @param data - Data to write
- */
+
 async function writeToFile(filePath: string, data: any): Promise<void> {
   try {
     logger.info(`Writing data to ${filePath}`);
@@ -71,7 +62,7 @@ const main = asyncErrorHandler(async (): Promise<void> => {
   const orderBookOutputPath = path.resolve(config.files.outputOrderBookPath);
   const tradesOutputPath = path.resolve(config.files.outputTradesPath);
 
-  // Create directories if they don't exist
+  // Creating directories if they don't exist
   const orderBookDir = path.dirname(orderBookOutputPath);
   const tradesDir = path.dirname(tradesOutputPath);
 
